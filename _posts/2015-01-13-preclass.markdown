@@ -1,0 +1,15 @@
+---
+title: Pre-class on "Version Control" - January 14 19:00
+layout: post
+---
+
+We will meet for the first pre-class on **January 14 at 19h** in order to build up some basic knowledge before actual
+classes start.
+
+Official classes by Neil Gershenfeld will start **on Jan 28 2015**.
+
+The theme will be Version Control systems such as GIT and Mercurial.
+
+[Lesson notes](http://fabacademy.fablabcascina.org/classes/pre-01/)
+
+[Hangout link](https://plus.google.com/u/0/events/cti4kabfq0nffbdk4tqfrvb9cv4)

@@ -7,7 +7,9 @@
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
+          <li>Local instructor:</li>
+			 <li>Fiore Basile
+          <li>Phone +393284576081</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
@@ -42,11 +44,13 @@
             </a>
           </li>
           {% endif %}
+			 <li>  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p></li>
         </ul>
       </div>
 
       <div class="footer-col  footer-col-3">
         <p class="text">{{ site.description }}</p>
+		
       </div>
     </div>
 

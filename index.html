@@ -3,8 +3,18 @@ layout: default
 ---
 
 <div class="home">
+<h1>Welcome to Fab Academy at Fab Lab Cascina!</h1>
 
-  <h1 class="page-heading">Posts</h1>
+<div style="width: 100%">
+<img src="images/webcam-fab-academy.jpg" style="max-width:800px; width: 100%" alt="Webcam Fab Academy">
+</div>
+
+<p>2015 is the first year Fab Academy is hosted by Italian fablabs. Fab Lab Cascina is honoured to be among the labs hosting Fab Academy this year.</p>
+
+<p>This site provides useful information for local students, as well as tutorials and training materials.</p>
+
+
+  <h1 class="page-heading" style="border-bottom: 1px solid black">LATEST NEWS</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -18,6 +28,5 @@ layout: default
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
