@@ -4,7 +4,7 @@ layout: lesson
 subtitle: Introduction to GIT and Mercurial
 ---
 
-#### Summary
+## Summary
 
 - [Key concepts](#key-concepts)
 - [Git and Mercurial](#git-and-mercurial)
@@ -12,7 +12,7 @@ subtitle: Introduction to GIT and Mercurial
 - [Introducing Mercurial](#introducing-mercurial)
 - [Assignments](#assignments)
 
-#### Key concepts
+## Key concepts
 
 Version Control Software has been around for a while. It is really important for software development, but can help a lot i.e. also for writing books,
 managing websites, etc.
@@ -32,13 +32,13 @@ The important concepts of version control are:
   - a) taking changes from one user or another and discarding the rest 
   - b) manually editing the file and committing again a new version 
 
-####Git and Mercurial
+## Git and Mercurial
 
 Many VC software exist, the most popular are Subversion, **Mercurial** and **GIT**.
 
 Each has his strength and weaknesses. The most used worldwide is GIT. The one we used till now in Fab Academy is Mercurial. You should know both.
 
-**Difference between Git and Mercurial** 
+### Difference between Git and Mercurial
 
 >*Git is MacGyver and Mercurial is James Bond*
 
@@ -57,19 +57,19 @@ Each has his strength and weaknesses. The most used worldwide is GIT. The one we
 
 Which one is better? Up to you to decide.
 
-**Interesting Reads:**
+### Interesting Reads:
 
 - [Git vs Mercurial](http://importantshock.wordpress.com/2008/08/07/git-vs-mercurial/)
 - [The Differences Between Mercurial and Git](http://www.rockstarprogrammer.org/post/2008/apr/06/differences-between-mercurial-and-git/)
 
 
-####Introducing Git
+## Introducing Git
 
-**Getting the software**
+###Getting the software
 
 Download GIT for [OSX](http://code.google.com/p/git-osx-installer/downloads/list?can=3), [Windows](http://msysgit.github.io/), [Linux](http://git-scm.com/downloads)
 
-**Creating a (local) repository**
+###Creating a (local) repository
 
 Create a folder into your computer, cd into it and run git init
 
@@ -81,7 +81,9 @@ You will get
 	
 	Initialized empty Git repository in /private/tmp/repo/.git/
 	
-**Add some files to the repository and commit them**
+###Adding files
+    
+Let's see how some files to the repository and commit them
 
 Create a README file with some text into your repository folder, then
 
@@ -130,7 +132,7 @@ At this point you can either commit your changes with **git add** and **git comm
 	
 will roll README back to the committed version.
 
-**Branching**
+### Branching
 
 Eventually you might need to work on some changes for a long time. And maybe you're not sure these changes should make it into the main version of your repository.
 Consider you want to add a feature to your software but are not sure of it.
@@ -174,7 +176,7 @@ You will get:
 
 Now the master branch will have all the changes you made in the other branch. Each time you want to sync the two you can merge changes this way.
 
-**Remote repositories**
+### Remote repositories
 
 The cool thing about Git is that it works not only locally but also via Internet. We can use it without a server. But we can also use it on **remote
 repositories** to collaborate with other people and keep our data safe.
@@ -205,7 +207,7 @@ Now go back to the original folder. In order to synchronize with the changes you
 	
 Now both of your local folders are in sync. This is also a very convenient way of keeping folders synchronized among different computers.
 
-**Interesting Reads:**
+### Interesting Reads:
 
 * [Git Community Book](http://book.git-scm.com/)
 * [Pro Git](http://progit.org/book/)
@@ -213,13 +215,13 @@ Now both of your local folders are in sync. This is also a very convenient way o
 * [GitHub Help](http://help.github.com/)
 * [A Visual Git Guide](http://marklodato.github.com/visual-git-guide/index-en.html)
 
-####Introducing Mercurial
+## Introducing Mercurial
 
-**Getting the software**
+###Getting the software
 
 You can download Mercurial for [Windows](http://tortoisehg.bitbucket.org/download/index.html), [OSX](http://mercurial.selenic.com/downloads), [Linux](http://mercurial.selenic.com/downloads).
 
-**Getting started**
+###Getting started
 
 As with Git we can work on a local folder and enable it for versioning. 
 
@@ -318,7 +320,7 @@ Mercurial has a cool feature you can go back and forth in version history. For e
 	
 Where 0 in this case is the first **changeset**, you can see the number with *hg log*. If you don't specify any value for update you will get back to the latest version.
 
-#### Remote repositories
+###Remote repositories
 
 As with Git we can work with other people with Mercurial. We do this by using a remote repository.
 
@@ -349,7 +351,7 @@ Now let's edit the LICENSE and add a new README with some text. Then run *hg add
 	
 This time we don't need to update the hgrc since we cloned the repository from the remote one. In fact there's already an hgrc in the .hg folder!
 
-#### Fixing conflicts
+### Fixing conflicts
 
 Now we can pull the changes into our previous folder. But first let's edit the LICENSE again deleting all the contents, so we can see what happens if there's a conflict. In the initial folder:
 
@@ -414,14 +416,14 @@ Here you notice that the latest changeset has two different **parents**, each cr
 
 > LESSON LEARNED: Always read error messages, and take the advice from mercurial
 
-**Interesting Reads:**
+### Interesting Reads
 
 - [Mercurial Beginners Guide](http://mercurial.selenic.com/wiki/UnderstandingMercurial)
 - [Mercurial Tips & Tricks](http://mercurial.selenic.com/wiki/TipsAndTricks)
 - [Mercurial Book: The Definitive Guide](http://hgbook.red-bean.com/read/)
 
 
-###Assignments
+## Assignments
 
 - Register on [GitHub](http://github.com) and [BitBucket](http://bitbucket.org)
 - Create repositories for some of your existing projects on one or the other
