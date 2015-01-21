@@ -187,11 +187,11 @@ Static site generators try to bring you the best of both worlds. Like CMS you ha
 
 Static site generators work like this:
 
-1) You start with a basic folder structure, with folders where you put your pages, usually as Markdown documents, and folders containing templates and includes.
-2) You can change the style of the site by editing templates and CSS 
-3) You add in your content
-4) You "compile" the site, producing a "static" folder 
-5) You copy the contents of the static folder on your server, either by FTP, SSH or Version control.
+1. You start with a basic folder structure, with folders where you put your pages, usually as Markdown documents, and folders containing templates and includes.
+2. You can change the style of the site by editing templates and CSS 
+3. You add in your content
+4. You "compile" the site, producing a "static" folder 
+5. You copy the contents of the static folder on your server, either by FTP, SSH or Version control.
 
 Every time you want to update your site, you just do steps 3) to 5). 
 
@@ -349,9 +349,9 @@ GitHub offers a great free static site hosting service. You can have a personal 
 
 Personal site works likes this:
 
-- You create a repository on Github named yourusername.github.io (replace yourusername with your username)  
-- You commit and push your static site to this repository
-- Your site is visible at yourusername.github.io
+1. You create a repository on Github named yourusername.github.io (replace yourusername with your username)  
+2. You commit and push your static site to this repository
+3. Your site is visible at yourusername.github.io
 
 Strongly recommended!
 
