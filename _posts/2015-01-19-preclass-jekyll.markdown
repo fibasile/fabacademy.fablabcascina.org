@@ -15,3 +15,4 @@ The preliminary program is the following:
 
 During the pre-class we'll get started on tools and techniques for building the personal FabAcademy pages.
 
+[Lesson notes](/classes/pre-02/)
