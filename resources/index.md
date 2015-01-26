@@ -5,6 +5,10 @@ layout: page
 
 This page contains tutorials and resources for helping you in your Fab Academy journey.
 
+## Tutorials
+
+* [How to setup HTML5 Fab Modules](../tutorials/fabmodules-html5)
+
 
 ## Websites
 
